@@ -179,3 +179,19 @@ width: inherit;
 	border-color:#de2824;
 	background-color: #de2824;
 }
+.class{
+	height: 450px;
+	background-color: yellow;
+	position: relative;
+	
+}
+.class > div{
+	height: inherit;
+}
+.class .class-news{
+	margin-left:240px;
+	margin-right:228px;
+}
+.class .class-list{
+	
+}
