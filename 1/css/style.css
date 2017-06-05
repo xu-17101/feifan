@@ -1,0 +1,181 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+body{
+	background-color: #fff;
+	font-size: 14px;
+	color: #333333;
+	font-family: "arial, helvetica, sans-serif";
+}
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+.top{
+	height: 38px;
+	line-height: 38px;
+ background-color: #e1f3fd;
+ font-size: 12px;
+ min-width: 1200px;
+}
+.top li{
+	float: left;
+	padding: 0 11px;
+	list-style: none;
+	position: relative;
+}
+.top li:hover{
+	background-color: gainsboro;
+}
+.top li:hover .sub-nav{display: block;
+}
+
+.top li span.fa{color:#D82936;
+	
+}
+
+.top .sub-nav{
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	background-color: gainsboro;
+	width: 78px;
+	text-align: center;
+	display: none;
+	z-index: 9999;
+	
+}
+.top .sub-nav li{
+	padding: 0;
+	width: inherit;
+}
+.top .sub-nav li:hover{
+	background-color: #e1f3fd;
+}
+.top .sub-nav li:hover a{
+	color: #D82936;
+}
+.top li:hover span.fa:before{
+	content: "\f106";
+}
+.top .wechat li{
+	height: 38px;
+padding-top: 6px;
+box-sizing: border-box;
+	
+}
+
+.top .wechat li:hover .qrcode{
+	display: block;
+}
+.top .wechat li:hover{
+	background-color: #e1f3fd;
+	
+}
+.top .qrcode{
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: 38px;
+	right: 0;
+	display: none;
+}
+
+.ner{
+	height: 114px;
+	background-color: red;
+	padding: 22px 0;
+	box-sizing: border-box;
+}
+.ner .logo{height: 70px;
+	
+}
+
+.ner .logo img{height: 70px;
+	
+}
+.ner .slogan{margin-left: 32px;
+line-height: 70px;
+font-size: 16px;
+	
+}
+.ner ul{line-height: 70px;
+list-style: none;
+	
+}
+.ner ul li{
+	float: left;
+	font-size: 16px;
+	margin-right: 36px;
+}
+.ner li span.fa{
+	font-size: 30px;
+	color:#efc15f;
+	margin-right: 8px;
+}
+.ner li.phone-400{
+	font-size: 18px;
+}
+.ner li.phone-400 span{
+	font-size: 25px;
+	color: #dd2527;
+}
+.banner{
+	height: 350px;
+	background-color: blue;
+	position: relative;
+}
+.banner ul{
+	list-style: none;
+}
+ .banner ul li{
+ 		width: 100%;
+ 		height: 350px;
+ 		position: absolute;
+ 		top: 0;
+ 		left: 0;
+ 		display: none;
+ }
+ .banner ul li:first-child{
+ 	display: block;
+ }
+
+ .banner ul li img{
+ 	height: inherit;
+width: inherit;
+ }
+.banner .points{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+.banner .points span{
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 6px;
+	border-radius: 50%;
+	border: solid 1px #FFFFFF;
+}
+.banner .points span.active{
+	border-color:#de2824;
+	background-color: #de2824;
+}
