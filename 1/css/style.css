@@ -180,6 +180,7 @@ width: inherit;
 	background-color: #de2824;
 }
 .class{
+	margin-top: 30px;
 	height: 450px;
 	background-color: yellow;
 	position: relative;
@@ -192,6 +193,86 @@ width: inherit;
 	margin-left:240px;
 	margin-right:228px;
 }
+.class-news .hott1{
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid gainsboro;
+
+}
+.class-news .hott1 li{
+	float: left;
+	padding: 0 20px;
+    list-style: none;
+}
 .class .class-list{
+	width: 220px;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.class .class-hot{
+	width: 200px;
+	background-color: orange;
+	position: absolute;
+	right: 0;
+	top: 0;
+	box-sizing: border-box;
+}
+.class-hot .coo1{
+	height: 40px;
+	background-color: red;
+	line-height: 40px;
+	text-align: center;
 	
+}
+.class-hot .coo2{
+	width: inherit;
+	height: 130px;
+	background-color: blue;
+}
+.class-hot .coo3{
+	margin-top: 10px;
+	width: inherit;
+	height: 130px;
+	box-sizing: border-box;
+}
+.class-hot .coo4{
+margin-top: 10px;
+	width: inherit;
+	height: 130px;
+	background-color: blue;
+	
+}
+.class .class-list ul{line-height: 45px;
+	
+}
+.class .class-list ul li{
+	height: 45px;
+	box-sizing: border-box;
+	border-left: solid 1px #d8d8d8;
+	border-right:solid 1px #d8d8d8 ;
+	border-bottom: solid  1px #d8d8d8;
+	list-style: none;
+	font-size: 16px;
+	padding: 0px 16px;
+}
+
+.class .class-list li:first-child{
+	border-left:none;
+	border-right:none;
+	background-color: #dd2726;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.class .class-list li:first-child  span.fa{margin-right: 16px;	
+}
+.class2{
+	height: 314px;
+	background-color: blue;
+	margin-top: 30px;
+}
+.class2 .eeff22{
+	height: 38px;
+	background-color: red;
 }
