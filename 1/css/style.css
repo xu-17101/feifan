@@ -362,11 +362,35 @@ margin-top: 10px;
 
 .class2{
 	height: 314px;
-	background-color: blue;
-	margin-top: 30px;
+	/*background-color: yellow;*/
+	margin-top: 28px;
 }
 .class2 .eeff22{
-	height: 38px;
-	background-color: red;
+	height: 50px;
+	/*background-color: black;*/
+	line-height: 50px;
+	border-bottom:solid 1px groove ;
+	position: relative;
 }
 
+.class2 .class-fies{
+	width: 248px;
+}
+.class2 .tab ul{list-style: none;
+	
+}
+.class2 .tab ul li{
+	float: left;
+	padding: 0 16px;
+}
+.class2 .tab ul li:first-child{
+	color: #D82936;
+}
+.class2 .liner{
+	width: 100px;
+	height: 2px;
+	position: absolute;
+	background-color: #db272a;
+	left: 241px;
+	bottom: -1px;
+}

@@ -99,14 +99,6 @@
 				</ul>
 				<div class="sub-list">
 					<ul class="clear">
-
-网页设计师全科班
-PHP网站开发工程师
-网页美工设计实战班
-网页美工设计精品班
-Web前端工程师精品班
-高级网页设计就业班
-
 						<li>平面设计全科班</li>
 						<li>商业广告设计全科班</li>
 						<li>创意广告设计精品班</li>
@@ -184,7 +176,33 @@ Web前端工程师精品班
 				</ul>
 			</div>
 			<div class="hott2">
-				<div class="left zuo-1 class1">
+				<div class="zuo-1 class1 left">
+						<div class="left tutu">
+							<img src="img/201706021027481.jpg"/>
+							<p>12-13</p>
+						</div>
+						<div class="left zizi">
+							<p><a href="#">非凡学院2017课程体系优化升级</a></p>
+							
+								<p>为了更好的迎接市场需求，提高教育培训质量,</p>
+								<p>培养高水平实用型社会人才，校方组织数...</p>
+							
+						</div>
+					</div>
+					<div class="zuo-1 class1 right">
+						<div class="left tutu">
+							<img src="img/201706021027481.jpg"/>
+							<p>12-13</p>
+						</div>
+						<div class="zizi left">
+							<p><a href="#">非凡学院2017课程体系优化升级</a></p>
+							
+								<p>为了更好的迎接市场需求，提高教育培训质量,</p>
+								<p>培养高水平实用型社会人才，校方组织数...</p>
+							
+						</div>
+					</div>
+					<div class="left zuo-1 class1">
 						<div class="left tutu">
 							<img src="img/201706021027481.jpg"/>
 							<p>12-13</p>
@@ -234,33 +252,7 @@ Web前端工程师精品班
 								<p>为了更好的迎接市场需求，提高教育培训质量,</p>
 								<p>培养高水平实用型社会人才，校方组织数...</p>
 							
-						</div>
-					</div>
-					<div class="left zuo-1 class1">
-						<div class="left tutu">
-							<img src="img/201706021027481.jpg"/>
-							<p>12-13</p>
-						</div>
-						<div class="left zizi">
-							<p><a href="#">非凡学院2017课程体系优化升级</a></p>
-							
-								<p>为了更好的迎接市场需求，提高教育培训质量,</p>
-								<p>培养高水平实用型社会人才，校方组织数...</p>
-							
-						</div>
-					</div>
-					<div class="right zuo-1 class1">
-						<div class="left tutu">
-							<img src="img/201706021027481.jpg"/>
-							<p>12-13</p>
-						</div>
-						<div class="left zizi">
-							<p><a href="#">非凡学院2017课程体系优化升级</a></p>
-							
-								<p>为了更好的迎接市场需求，提高教育培训质量,</p>
-								<p>培养高水平实用型社会人才，校方组织数...</p>
-							
-						</div>
+						</div> 
 					</div>
 					<div class="left zuo-1 class1">
 						<div class="left tutu">
@@ -307,6 +299,21 @@ Web前端工程师精品班
 	</div>
 	<div class="class2 w">
 		<div class="eeff22">
+		<div class="class-fies left"><h3>最新开班</h3></div>
+				<div class="tab left">
+					<ul>
+						<li>平面UI</li>
+						<li>网页设计</li>
+						<li>室内设计</li>
+						<li>淘宝美工</li>
+						<li>电商网销</li>
+						<li>机械模具</li>
+						<li>服装设计</li>
+						<li>影视美术</li>
+					</ul>
+					<div class="liner"></div>
+				</div>
+			</div>
 			
 		</div>
 	</div>
@@ -345,6 +352,22 @@ Web前端工程师精品班
 			$(".class-list").mouseleave(function(){
 				$(".category li").removeClass("hover");
 				$(".sub-list").hide();
+			});
+			
+			$(".class2 .tab li").hover(function(){
+				// 线的动画效果
+				var index = $(this).index();
+				var offsetleft = $(this).offset().left - $(".class2").offset().left;
+				var width = $(this).width();
+				var left = offsetleft+width/2-35;
+				$(".class2 .liner").stop(true,true);
+				$(".class2 .liner").animate({
+					left:left+"px"
+				},300);
+				// tab文字切换
+				$(".class2 .tab li").css("color","#333").eq(index).css("color","#D82936");
+				$(".class2 .class-info ul").hide().eq(index).show();
+				
 			});
 	</script>
 	</body>
