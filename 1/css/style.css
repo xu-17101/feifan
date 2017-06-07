@@ -100,7 +100,7 @@ box-sizing: border-box;
 
 .ner{
 	height: 114px;
-	background-color: red;
+	/*background-color: red;*/
 	padding: 22px 0;
 	box-sizing: border-box;
 }
@@ -180,9 +180,9 @@ width: inherit;
 	background-color: #de2824;
 }
 .class{
-	margin-top: 30px;
+	margin-top:28px;
 	height: 450px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	position: relative;
 	
 }
@@ -204,13 +204,52 @@ width: inherit;
 	padding: 0 20px;
     list-style: none;
 }
+.class-news .hott2 .class1{
+	height:100px ;
+	width: 365px;
+	padding: 16px 22px;
+	box-sizing: border-box;
+}
+.class-news .hott2 .tutu{
+	margin-right:24px ;
+}
+.class-news .hott2 .tutu img{
+	width: 50px;
+	height: 50ox;
+	border-radius: 50%;
+}
+.class-news .hott2 .tutu p{
+margin: 0;
+	padding-left:9px;
+	color: darkgray;
+	font-size: 12px;
+}
+.class-news .hott2 .zizi p{
+	margin:0 ;
+	padding: 0;
+	font-size: 12px;
+	color: darkgray;
+}
+.class-news .hott2 .zizi p:first-child{
+	margin-bottom: 10px;
+	height: 20px;
+}
+.class-news .hott2 .zizi a{
+	color: #333333;
+	margin: 0;
+	font-size: 14px;
+}
+.class-news .hott2 .zizi a:hover{
+	color: red;
+}
 .class .class-list{
 	width: 220px;
-	background-color: red;
+	/*background-color: red;*/
 	position: absolute;
 	left: 0;
 	top: 0;
 }
+
 .class .class-hot{
 	width: 200px;
 	background-color: orange;
@@ -244,29 +283,83 @@ margin-top: 10px;
 	background-color: blue;
 	
 }
-.class .class-list ul{line-height: 45px;
+.class .class-list .category{
+	font-size: 16px;
 	
 }
-.class .class-list ul li{
-	height: 45px;
+.class .class-list .category li{
+	height: 41px;
+	line-height: 41px;
 	box-sizing: border-box;
 	border-left: solid 1px #d8d8d8;
 	border-right:solid 1px #d8d8d8 ;
 	border-bottom: solid  1px #d8d8d8;
 	list-style: none;
-	font-size: 16px;
-	padding: 0px 16px;
+	padding-left: 18px;
 }
 
-.class .class-list li:first-child{
+.class .class-list .category li:first-child{
 	border-left:none;
 	border-right:none;
 	background-color: #dd2726;
 	color: #FFFFFF;
-	font-size: 20px;
 }
-.class .class-list li:first-child  span.fa{margin-right: 16px;	
+.class .class-list .category li:first-child span.fa{
+	margin-right: 18px;	
+	color: #fff;
+	font-size: 18px;
+	margin-left: 0;
 }
+.class .class-list .category li span{
+	font-size: 10px;
+	margin-left: 26px;
+	color: #959ba9;
+}
+.class .class-list .category li.hover{
+	background-color: gainsboro;
+	color:#d82936;
+}
+.class .sub-list{
+	height: 410px;
+	width: 620px;
+	position: absolute;
+	padding: 20px;
+	box-sizing: border-box;
+	top: 41px;
+	left: 220px;
+	background-color: green;
+	display: none;
+}
+
+.class .sub-list ul{
+	display: none;
+}
+
+.class .sub-list li:nth-child(2n+1){
+	float: left;
+}
+.class .sub-list li:nth-child(2n){
+	float: right;
+}
+
+.class .sub-list li{
+	list-style: none;
+    width: 270px;
+    padding-left: 1em;
+    box-sizing: border-box;
+    height: 42;
+    line-height: 42px;
+    border-top:1px solid gray;
+    background: none;
+    font-size: 12px;
+    color: #999;
+}
+
+.sub-list li:hover{
+	color:#d82936;
+}
+
+
 .class2{
 	height: 314px;
 	background-color: blue;
@@ -276,3 +369,4 @@ margin-top: 10px;
 	height: 38px;
 	background-color: red;
 }
+
