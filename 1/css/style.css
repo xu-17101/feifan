@@ -137,6 +137,7 @@ list-style: none;
 	font-size: 25px;
 	color: #dd2527;
 }
+/*轮播图*/
 .banner{
 	height: 350px;
 	background-color: blue;
@@ -440,12 +441,82 @@ margin-top: 10px;
 
 	
 }
-/*
- biaoge*/
-.table{height: 300px;
 
-	 background-color: indianred;
-	 margin-top: 28px;
+
+/*biaoge*/
+.table{
+	margin-top: 28px;
+}
+.table table{
+	width: 570px;
+	font-size: 14px;
+	float: left;
+}
+.table table:first-child{
+	margin-right: 60px;
 }
 
+.table table a{
+	color:#51B8F1 ;
+}
 
+.table .zilis{
+	color: red;
+}
+.table table tr td{
+	text-align: center;
+	height: 34px;
+	line-height: 34px;
+}
+.table tr td:first-child{
+	text-align: left;
+}
+.szll{
+	height: 320px;
+
+	margin-top: 28px;
+}
+.szll .szll-tou{
+	height: 50px;
+
+	line-height: 50px;
+}
+.szll .szll-xia{
+	height: 270px;
+
+}
+.szll .szll-xia li{
+	float: left;
+	list-style:none;
+	width: 270px;
+	height: 270px;
+	margin-right: 40px;
+	;
+	
+
+}
+
+.szll .szll-xia ul li:last-child{
+	margin-right: 0;
+}
+.szll .szll-xia .zhaop {
+	margin-top: 16px;
+}
+.szll .szll-xia .zhaop img{
+	width: 270px;
+	height: 180px;
+}
+.szll .szll-xia .zhaop p{
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom:5px;
+}
+.szll .szll-xia .zhaop a{
+	font-size: 12px;
+	color: #999999;
+}
+.xxzp{
+	margin-top: 20px;
+	height: 300px;
+	background-color: red;
+}

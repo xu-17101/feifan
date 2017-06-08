@@ -558,11 +558,143 @@
 			</div>
 		</div>
 		<div class="table w">
+		<div class="kaiban-table clear">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td>班级名称</td>
+						<td>开课时间</td>
+						<td>学校价</td>
+						<td>优惠价</td>
+						<td>剩余名额</td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+				</table>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td>班级名称</td>
+						<td>开课时间</td>
+						<td>学校价</td>
+						<td>优惠价</td>
+						<td>剩余名额</td>
+					</tr>
+					
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">[虹口中心]</a>Web网页前端精品班(</td>
+						<td>2017-02-27</td>
+						<td><del>￥18800</del></td>
+						<td class="zilis">￥17800</td>
+						<td><a href="#">12</a></td>
+					</tr>
+				</table>
+		</div>
+		<div class="szll w">
+		<div class="szll-tou">
+			<span class="left"><h2>师资力量</h2></span><span class="right"><a href="#">看全部</a></span>
+		</div>
+		<div class="szll-xia">
+			<ul>
+				<li>
+					<div class="zhaop">
+						<img src="img/13164347278.jpg"/>
+						<p>余老师</p>
+						<a href="#"><span>室内设计高级讲师</span></a>
+					</div>
+				</li>
+				<li>
+					<div class="zhaop">
+						<img src="img/13164347278.jpg"/>
+						<p>余老师</p>
+						<a href="#"><span>室内设计高级讲师</span></a>
+					</div>
+				</li>
+	            <li>
+	            	<div class="zhaop">
+						<img src="img/13164347278.jpg"/>
+						<p>余老师</p>
+						<a href="#"><span>室内设计高级讲师</span></a>
+					</div>
+	            </li>
+	            <li>
+	            	<div class="zhaop">
+						<img src="img/13164347278.jpg"/>
+						<p>余老师</p>
+						<a href="#"><span>室内设计高级讲师</span></a>
+					</div>
+	            </li>
+
+			</ul>
+		</div>
+		</div>
+		
+		<div class="xxzp">
 			
 		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
 	<script type="text/javascript">
+		/*轮播图*/
 		var images = $(".banner li");
 		var imagesC= images.length;
 		var index = 0;
@@ -592,12 +724,13 @@
 			},function(){
 				console.log("2");				
 			});
-			
 			$(".class-list").mouseleave(function(){
 				$(".category li").removeClass("hover");
 				$(".sub-list").hide();
 			});
 			
+			
+			// tab文字切换 最新开班
 			$(".class2 .tab li").hover(function(){
 				// 线的动画效果
 				var index = $(this).index();
@@ -609,9 +742,8 @@
 					left:left+"px"
 				},300);
 				// tab文字切换
-				$(".class2 .tab li").css("color","#333").eq(index).css("color","#D82936");
+				$(".class2 .tab li").css("color","#333333").eq(index).css("color","#D82936");
 				$(".class2 .class-info ul").hide().eq(index).show();
-				
 			});
 	</script>
 	</body>
