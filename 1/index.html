@@ -689,8 +689,60 @@
 		</div>
 		
 		<div class="xxzp">
-			
+			<div class="eeff33">
+		<div class="xxzp-fies left"><h3>学生作品</h3></div>
+				<div class="xxzp-tab left">
+					<ul>
+						<li>UI交互设计</li>
+						<li>网页设计</li>
+						<li>淘宝美工</li>
+						<li>室内设计</li>
+						<li>机械模具</li>
+						<li>摄影作品</li>
+					</ul>
+					<div class="liner"></div>
+				</div>
+			</div>
+			<div class="xxzp-info">
+				<ul class="clear">
+					<li>
+						<div class="class-4355">
+						<img src="img/221723472331.jpg" />
+						<p><a href="#">XX学员UI作品</a></p>
+						<span class="left"><a href="#">指导老师：武老师</a></span><span class="right"><a href="#">查看></a></span>
+						</div>
+					</li>
+					<li>
+						<div class="class-4355">
+						<img src="img/221721457763.jpg" />
+						<p><a href="#">XX学员UI作品</a></p>
+						<span class="left"><a href="#">指导老师：武老师</a></span><span class="right"><a href="#">查看></a></span>
+						</div>
+					</li>
+					<li>
+						<div class="class-4355">
+						<img src="img/221720155435.jpg" />
+						<p><a href="#">XX学员UI作品</a></p>
+						<span class="left"><a href="#">指导老师：武老师</a></span><span class="right"><a href="#">查看></a></span>
+						</div>
+					</li>
+					<li>
+						<div class="class-4355">
+						<img src="img/221718281264.jpg" />
+						<p><a href="#">XX学员UI作品</a></p>
+						<span class="left"><a href="#">指导老师：武老师</a></span><span class="right"><a href="#">查看></a></span>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
 		</div>
+		
 	</div>
 	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
 	<script type="text/javascript">
@@ -744,6 +796,22 @@
 				// tab文字切换
 				$(".class2 .tab li").css("color","#333333").eq(index).css("color","#D82936");
 				$(".class2 .class-info ul").hide().eq(index).show();
+			});
+			
+			//xxzp
+			$(".xxzp .xxzp-tab li").hover(function(){
+				// 线的动画效果
+				var index = $(this).index();
+				var offsetleft = $(this).offset().left - $(".xxzp").offset().left;
+				var width = $(this).width();
+				var left = offsetleft+width/2-35;
+				$(".xxzp .liner").stop(true,true);
+				$(".xxzp .liner").animate({
+					left:left+"px"
+				},300);
+				// tab文字切换
+				$(".xxzp .xxzp-tab li").css("color","#333333").eq(index).css("color","#D82936");
+				$(".xxzp .xxzp-info ul").hide().eq(index).show();
 			});
 	</script>
 	</body>
