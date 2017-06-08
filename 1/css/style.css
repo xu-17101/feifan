@@ -359,9 +359,8 @@ margin-top: 10px;
 	color:#d82936;
 }
 
-
+/*最新开班*/
 .class2{
-	height: 314px;
 	/*background-color: yellow;*/
 	margin-top: 28px;
 }
@@ -394,3 +393,59 @@ margin-top: 10px;
 	left: 241px;
 	bottom: -1px;
 }
+.class2 .class-info{
+	height: 300px;
+	/*background-color: yellow;*/
+}
+.class2 .class-info ul{
+	display: none;
+}
+.class2 .class-info ul:first-child{
+	display: block;
+}
+
+.class2 .class-info li{
+	float: left;
+	list-style:none;
+	width: 270px;
+	height: 300px;
+	margin-right: 40px;
+	/*background-color: blue;*/
+
+}
+
+.class2 .class-info ul li:last-child{
+	margin-right: 0;
+}
+.class2 .class-info .class-432{
+	margin-top:20px ;
+}
+.class2 .class-info .class-432:hover{
+	height: 270px;
+	width: 270px;
+	border: 1px solid gainsboro;
+
+}
+.class2 .class-info .class-432 p{
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.class2 .class-info .class-432 span a{
+	color: #A9A9A9;
+	font-size: 12px;}
+
+.class2 .class-info .class-432 img{
+	height: 180px;
+    width: 270px;
+
+	
+}
+/*
+ biaoge*/
+.table{height: 300px;
+
+	 background-color: indianred;
+	 margin-top: 28px;
+}
+
+
