@@ -792,3 +792,49 @@ margin-right: 70px;
 	margin-top:20px;
 	
 }
+
+
+.footer{
+	height: 649px;
+	margin-top: 38px;
+	background-color: black;
+}
+
+.footer .kong1{
+	height: 50px;
+	
+}
+.footer .neirou1{
+	height: 44px;
+	
+}
+.footer .neirou1 li{
+	float: left;
+	list-style: none;
+	width: 199.19px;
+	height: 44px;
+	background-color: blu;
+	
+}
+.footer .neirou1 li img{
+	margin-right: 10px;
+}
+.footer .neirou1 li span a{
+	font-size: 12px;
+	line-height: 22px;
+	color: #999999;
+}
+.footer .kong2{
+	height: 41px;
+	border-bottom: 1px #dddddd solid;
+	box-sizing: border-box;
+}
+.footer .zhongxin{
+	padding: 30px;
+	background-color: red;
+	height: 310px;
+}
+.footer .zhongxin li {
+	float: left;
+	list-style: none;
+}
