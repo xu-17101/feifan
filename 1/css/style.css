@@ -269,18 +269,33 @@ margin: 0;
 	line-height: 40px;
 	text-align: center;
 	
+	
 }
 .class-hot .coo2{
 	width: inherit;
 	height: 130px;
 	background-color: blue;
+	position: relative;
 }
+
+.class-hot .coo2 .wen-1{
+	position: absolute;
+	
+	bottom: -50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 200px;
+	height: 70px;
+	/*text-align: center;*/
+	line-height: 50px;
+	color: #FFFFFF;}
 .class-hot .coo3{
 	margin-top: 10px;
 	width: inherit;
 	height: 130px;
 	box-sizing: border-box;
 }
+
+
 .class-hot .coo4{
 margin-top: 10px;
 	width: inherit;
@@ -538,7 +553,24 @@ margin-top: 10px;
 	margin-right: 0;
 }
 .szll .szll-xia .zhaop {
+	position: relative;
 	margin-top: 16px;
+}
+.tuchu{
+	height: 180px;
+	width: 270px;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	padding: 40px 20px;
+	box-sizing: border-box;
+	display: none;
+}
+.szll .zhaop:hover .tuchu{
+	display: block;
 }
 .szll .szll-xia .zhaop img{
 	width: 270px;
@@ -684,37 +716,19 @@ margin-right: 70px;
 
 
 /*荣誉*/
-.ffry{
-	margin-top: 28px;
-	/*background-color: red;*/
-	height: 490px;
+.rongyu{
+	height: 532px;
+	margin-top: 38px;
 }
-
-
-.ffry .ffry-tou{
-	height: 42px;
-	/*background-color: blue;*/
-	line-height: 42px;
+.rongyu h3{
+	padding-bottom: 28px;
+	padding-top: 15px;
 }
-
-.ffry .ffry-tup{
-	height: 448px;
-	/*background-color: orange;*/
-}
-.ffry .ffry-tup li{
-	height:180px;
-	width: 270px;
-	/*background-color: red;*/
+.rongyu-tu{
 	float: left;
-	margin:14px;
-	list-style: none;
+	margin-right: 30px;
+	margin-bottom: 34px;
 	text-align: center;
-}
-
-
-.ffry .ffry-tup .tupian1 img{
-	width: 270px;
-	height: 170px;
 }
 /*校区分布*/
 .school {
@@ -797,7 +811,7 @@ margin-right: 70px;
 .footer{
 	height: 649px;
 	margin-top: 38px;
-	background-color: black;
+	background-color:gainsboro;
 }
 
 .footer .kong1{
@@ -813,7 +827,7 @@ margin-right: 70px;
 	list-style: none;
 	width: 199.19px;
 	height: 44px;
-	background-color: blu;
+	
 	
 }
 .footer .neirou1 li img{
@@ -829,12 +843,49 @@ margin-right: 70px;
 	border-bottom: 1px #dddddd solid;
 	box-sizing: border-box;
 }
-.footer .zhongxin{
-	padding: 30px;
-	background-color: red;
-	height: 310px;
+.footer .zhong{
+	padding:30px 0;
+	/*background-color: red;*/
+	height: 340px;
+	box-sizing: border-box;
+	border-bottom: 1px #DDDDDD solid;
+	margin-bottom: 40px;
+
+	
 }
-.footer .zhongxin li {
+
+.footer .left-rrr li{
 	float: left;
 	list-style: none;
+	width: 140px;
+	line-height: 2em;
+	
 }
+.footer .left-rrr p{
+	font-size: 14px;
+	color: #000000;
+}
+.footer .left-rrr a{
+	font-size: 12px;
+	color: #868686;
+}
+.footer .kanp12{
+	width: 220px;
+	height: 310px;
+	
+}
+
+.footer .kanp12 p{
+	font-size: 20px;
+	line-height: 3em;
+color: #515151}
+
+.footer  .kanp12 span a
+{font-size: 12px;
+color: #565656;
+}
+
+.footer .xiazhong{
+	
+	text-align: center;
+} 
