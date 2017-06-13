@@ -1,0 +1,323 @@
+.main{
+	height: 1926px;
+	/*background-color: red;*/
+}
+.main .xxjs-left{
+	width: 222px;
+	height:652px ;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+}
+.main  .xxjs-shang{
+	width: 222px;
+	height: 50px;
+	border-bottom:1px solid #999999 ;
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 24px;
+	position: relative;
+	box-sizing: border-box;
+}
+.main  .xxjs-shang span{
+	color: red;
+	position: absolute;
+	top: 17px;
+	right: 42px;
+	
+}
+.main .xxjs-xia{
+	border-bottom: 1px solid #999999;
+}
+.main .xxjs-xia:last-child{
+	border-bottom:none;
+}
+.main .xxjs-xia li{
+	list-style: none;
+	height: 46px;
+	line-height: 46px;
+	padding-left: 24px;
+	font-size: 14px;
+	
+}
+.main .xxjs-xia li a{
+	color:#475544;;
+}
+
+
+.main .xxjs-xia ul li:hover{
+	background-color: #F3F3F3;
+}
+.main .xxjs-xia li:hover a{
+	color: red;
+}
+
+.main .xxjs-right{
+	width: 950px;
+	height: 1870px;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+}
+.main .xxjs-right .wenzi{
+	width: 950px;
+	height: 50px;
+    border-bottom: 1px #999999 solid;
+    line-height: 50px;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+.main .xxjs-right .wenduan{
+	width: 950px;
+	height: 640px;
+	line-height: 30px;
+	padding: 20px 15px;
+	box-sizing: border-box;
+}
+
+.main .xxjs-right .wenduan p{
+	font-size: 14px;
+
+	text-indent: 2em;
+}
+.main .xxjs-right .wenduan .tupian{
+	height:378px;
+	width: 500px;
+	
+	float: left;
+	margin-right: 20px;
+	
+}
+.main .xxjs-right .wenduan .tupian img{
+	height:378px;
+	width: 500px;
+}
+
+/*下表格*/
+.main .xxjs-right .xiakuang{
+	/*background-color: red;*/
+	height: 800px;
+	width: 950px;
+}
+.main .xxjs-right .wenzi-xia {
+	height: 60px;
+	line-height: 60px;
+   /*background-color: blue;*/
+  font-size: 16px;
+}
+.main .xxjs-right .kuangkuang{
+	width: 950px;
+	height: 1110px;
+	/*background-color: black;*/
+	padding-left: 20px;
+	padding-right: 50px;
+	box-sizing: border-box;
+}
+.main .xxjs-right .kuangkuang ul li{
+	width: 433px;
+	height: 168px;
+	margin-right: 14px;
+	float: left;
+	list-style: none;
+	/*background-color: greenyellow;*/
+	margin-bottom: 10px;
+	position: relative;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+}
+.main .xxjs-right .kuangkuang ul li:nth-child(2n){
+	margin-right: 0px;
+}
+.main .xxjs-right .kuangkuang ul li h1{
+	position: absolute;
+	left: 182px;
+	top: 30px;
+	font-size: 16px;
+	color: #ff303d;
+	text-align: center;
+}
+.main .xxjs-right .kuangkuang ul li p.p1{
+	position: absolute;
+	top: 68px;
+	left: 8px;
+	font-size: 12px;
+	color: #302e19;
+}
+.main .xxjs-right .kuangkuang ul li p.p2{
+	position: absolute;
+	top: 96px;
+	left: 8px;
+	color: #302e19;
+	font-size: 12px;
+}
+
+.main .xxjs-right .kuangkuang ul li p.p3{
+	position: absolute;
+	top: 123px;
+	left: 8px;
+	font-size: 12px;
+	color: #302e19;
+}
+.main .xxjs-right .kuangkuang ul li span.fa{
+	font-size: 1px;
+}
+
+
+
+
+
+
+/**************另外一页***************/
+.main2{
+	width: 1200px;
+	height: 1563px;
+	/*background-color: red;*/
+}
+.main2 .xxjs-left{
+	width: 222px;
+	height: 510px;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+}
+.main2  .xxjs-shang{
+	width: 222px;
+	height: 50px;
+	border-bottom:1px solid #999999 ;
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 24px;
+	position: relative;
+	box-sizing: border-box;
+}
+.main2 .xxjs-shang span{
+	color: red;
+	position: absolute;
+	top: 17px;
+	right: 42px;
+	
+}
+
+.main2 .xxjs-xia li{
+	list-style: none;
+	height: 46px;
+	line-height: 46px;
+	padding-left: 24px;
+	font-size: 14px;
+	
+}
+.main2 .xxjs-xia li a{
+	color:#475544;;
+}
+
+.main2 .xxjs-xia ul li:hover{
+	background-color: #F3F3F3;
+}
+.main2 .xxjs-xia li:hover a{
+	color: red;
+}
+
+
+.main2 .xxjs-right{
+	width: 950px;
+	height: 1513px;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+}
+
+
+.main2 .xxjs-right .wenzi{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #999999;
+	box-sizing: border-box;
+	padding: 0px 20px;
+font-size: 16px;	
+}
+.main2 .xxjs-right .xiawen{
+	width: 950px;
+	height: 1328px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.main2 .xxjs-right .xiawen li{
+	list-style: none;
+	height: 162px;
+	width: 720px;
+	/*background-color: red*/
+border-bottom: 1px solid #EBEBEB;
+box-sizing: border-box;
+position: relative;
+
+}
+
+.main2 .xxjs-right .xiawen .tizixs p.a1{
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main2 .xxjs-right .xiawen .tizixs p.a1 a:hover{
+	color: red;
+}
+.main2 .xxjs-right .xiawen .tizixs p.a2{
+	font-size: 12px;
+	line-height: 24px;
+}
+.main2 .xxjs-right .xiawen .tizixs p.a3{
+	color: #899ba9;
+	line-height: 34px;
+}
+
+.main2 .xxjs-right .xiawen .tizixs p span.fa{
+	margin-left: 28px;
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.main2 .xxjs-right .xiawen .tupian22{
+	width: 128px;
+	height: 128px;
+	/*background-color: royalblue;*/
+	position: absolute;
+	top: 19px;
+	right: -190px;
+	
+	
+}
+
+.main2 .xxjs-right .xiawen .tupian22 img
+{width: 128px;
+	height: 128px;
+	border-radius: 50%;
+}
+
+
+.main2 .btn-xx{
+	height: 135px;
+	width: 950px;
+	/*background-color: red;*/
+	text-align: center;
+	line-height: 135px;
+}
+.main2 .btn-xx button.fa{
+	width: 76px;
+	height: 40px;
+	font-size: 20px;
+}
+.main2 .btn-xx button.fa:first-child{
+	background-color:#e3e3e3;
+	border: none;
+}
+.main2 .btn-xx button.number{
+	width: 65px;
+	height: 40px;
+	font-size: 20px;
+}
+
+.main2 .btn-xx button.number1{
+	width: 65px;
+	height: 40px;
+	font-size: 20px;
+	background-color: red;
+	border: none;
+}
+}
