@@ -1,0 +1,103 @@
+E html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/qitafy.css" />
+	</head>
+	<body>
+		<div id="header">
+			
+		</div>
+		<div class="main3 w">
+		<div class="xxjs-left left">
+						<div class="xxjs-shang">
+				<h3 class="left">学员作品</h3>
+					<span class="fa fa-angle-down right"></span>	
+				</div>
+				<div class="xxjs-xia">
+					<ul>
+					
+						<li>
+						<a href="#">网页设计</a>
+					</li>
+					<li>
+						<a href="#">平面 UI</a>
+					</li>
+					<li>
+						<a href="#">室内景观</a>
+					</li>
+					<li>
+						<a href="#">淘宝美工</a>
+					</li>
+					<li>
+						<a href="#">机械模具</a>
+					</li>
+					<li>
+						<a href="#">服装设计</a>
+					</li>
+					</ul>
+				</div>
+				</div>
+				<div class="xxzp-right right">
+					<div class="zuop-tou">
+					<p>平面ui专业</p>
+				</div>
+				<div class="zuop-xia">
+					<ul>
+						<li>
+							<div class="img">
+									<img src="img/作品-1.jpg"/>
+								</div>
+								<p style="margin-top: 10px;">余晓婷学员作品</p>
+								<p style="color: #a0a0a0;">指导老师：武老师<span class="right"><a href="#">查看></a></span></p>
+						</li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				</div>	
+		</div>
+		
+		
+		
+		<div id="footer">
+			
+		</div>
+	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+			
+			
+				var aImages = $(".main3 .xxzp-right .zuop-xia .img");
+				aImages.hover(function() {
+					$(this).children("img").stop().animate({
+						width: "372px",
+						height: "280px",
+						left: "-50px",
+						top: "-50px"
+					}, 1000);
+				}, function() {
+					$(this).children("img").stop().animate({
+						width: "272px",
+						height: "180px",
+						left: "0px",
+						top: "0px"
+					}, 1000);
+				});
+		</script>	
+	</body>
+</html>

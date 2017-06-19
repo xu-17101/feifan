@@ -320,4 +320,117 @@ position: relative;
 	background-color: red;
 	border: none;
 }
+
+
+
+
+/***学员作品*/
+.main3{
+	height: 1120px;
+	/*background-color: red;*/
+}
+
+
+.main3 .xxjs-left{
+	width: 222px;
+	height: 326px;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+}
+.main3  .xxjs-shang{
+	width: 222px;
+	height: 50px;
+	border-bottom:1px solid #999999 ;
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 24px;
+	position: relative;
+	box-sizing: border-box;
+}
+.main3 .xxjs-shang span{
+	color: red;
+	position: absolute;
+	top: 17px;
+	right: 42px;
+	
+}
+
+.main3 .xxjs-xia li{
+	list-style: none;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 24px;
+	font-size: 14px;
+	
+}
+.main3 .xxjs-xia li a{
+	color:#475544;;
+}
+
+.main3 .xxjs-xia ul li:hover{
+	background-color: #F3F3F3;
+}
+.main3 .xxjs-xia li:hover a{
+	color: red;
+}
+
+
+.main3 .xxzp-right {
+	width: 950px;
+	height: inherit;
+	/*background-color: green;*/
+	box-sizing: border-box;
+	border: 1px solid #999999;
+}
+
+
+
+.main3 .xxzp-right .zuop-tou{
+	height: 50px;
+	width:inherit;
+	padding: 0px 22px;
+	font-size: 18px;
+	box-sizing: border-box;
+	line-height: 50px;
+	position: relative;
+	background-color: yellow;
+	border-bottom: solid 1px #f6f6f6;
+}
+
+
+.main3 .xxzp-right .zuop-xia{
+	height: 900px;
+	width: inherit;
+	background-color: red;
+}
+
+
+
+.main3 .xxzp-right .zuop-xia li{
+	float: left;
+	list-style: none;
+	margin-top: 36px;
+	margin-left: 26px;
+	height: 260px;
+	width: 286px;
+	background-color: blueviolet;
+	box-sizing: border-box;
+}
+
+.main3 .xxzp-right .zuop-xia p{
+	
+	line-height: 2em;
+	
+}
+.main3 .xxzp-right .zuop-xia .img{
+	width: 266px;
+	height: 180px;
+	overflow: hidden;
+}
+.main3 .xxzp-right .zuop-xia .img img{
+	height: inherit;
+	width: inherit;
+position: relative;
+	
+
 }

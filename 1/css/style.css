@@ -220,7 +220,7 @@ width: inherit;
 }
 .class-news .hott2 .tutu img{
 	width: 50px;
-	height: 50ox;
+	height: 50px;
 	border-radius: 50%;
 }
 .class-news .hott2 .tutu p{
@@ -266,84 +266,58 @@ margin: 0;
 
 
 .class .class-hot .zhuti {
-	height: 28px;
-	padding-top: 6px;
+
 	font-size: 16px;
+	line-height: 45px;
 	text-align: center;
-	padding-top: 6px;
-	background-color: white;
-	box-sizing: border-box;
 }
-
-.class .class-hot .tu {
+.class .class-hot .ttt{
 	height: 130px;
-	margin-top: 10px;
-}
-
-.class .class-hot .tu-1 {
+	width: 200px;
+	background-color: red;
+	margin-bottom: 10px;
 	position: relative;
 	overflow: hidden;
 }
-
-.class .class-hot .tu-1:hover .wen-1 {
-	position: absolute;
-	bottom: 0px;
+.class .class-hot .ttt:last-child{
+	margin-bottom: 0px;
+}
+.class .class-hot .ttt img{
+	width: 200px;
+	height: 130px;
 }
 
-.class .class-hot .wen-1 {
+.class .class-hot .ttt .jiawen{
 	position: absolute;
-	bottom: -50px;
+	bottom: -30px;
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 200px;
 	height: 70px;
+	line-height: 50px;
+	color: #FFFFFF;
 	
-	line-height: 50px;
-	color: #FFFFFF;
 }
 
-.class .class-hot .tu-2 {
-	position: relative;
-	overflow: hidden;
-}
-
-.class .class-hot .tu-2:hover .wen-2 {
+.class .class-hot .ttt .jiawen:hover{
 	position: absolute;
 	bottom: 0px;
+	
 }
 
-.class .class-hot .wen-2 {
-	position: absolute;
-	bottom: -50px;
-	background-color: rgba(0, 0, 0, 0.5);
-	width: 200px;
-	height: 70px;
-	line-height: 50px;
-	color: #FFFFFF;
+.class .class-hot .ttt .jiawen a{
+	color: #fff;
+	font-size: 12px;
+}
+.class .class-hot .ttt .jiawen p{
+	text-align: left;
+	line-height: 1.5em;
+	
+}
+.class .class-hot .ttt .jiawenp a{
+	color: gainsboro;
 }
 
-.class .class-hot .tu-3 {
-	position: relative;
-	overflow: hidden;
-}
-
-.class .class-hot .tu-3:hover .wen-3 {
-	position: absolute;
-	bottom: 0px;
-}
-
-.class .class-hot .wen-3 {
-	position: absolute;
-	bottom: -50px;
-	background-color: rgba(0, 0, 0, 0.5);
-	width: 200px;
-	height: 70px;
-	line-height: 50px;
-	color: #FFFFFF;
-}
-
-
-
-
+/*导航2级菜单*/
 .class .class-list .category{
 	font-size: 16px;
 	
@@ -388,7 +362,7 @@ margin: 0;
 	box-sizing: border-box;
 	top: 41px;
 	left: 220px;
-	background-color: green;
+	background-color: gainsboro;
 	display: none;
 }
 
@@ -537,6 +511,8 @@ margin: 0;
 	line-height: 34px;
 	position: relative;
 	overflow: hidden;
+border-bottom: 1px solid;
+box-sizing: border-box;
 
 }
 .news .register{
@@ -549,7 +525,7 @@ margin: 0;
 	z-index: 10;
 	line-height: 34px;
 	text-align: center;
-	border-bottom: 1px red solid;
+	
 	box-sizing: border-box;
 	
 }
@@ -560,10 +536,13 @@ margin: 0;
 	left: 0;
 	list-style: none;
 	width: 20000px;
+	
 }
 .news ul.news-list2 li{
 	float: left;
 	margin-right: 26px;
+	
+
 }
 
 
@@ -585,18 +564,15 @@ margin: 0;
 	float: left;
 	list-style:none;
 	width: 270px;
-	height: 270px;
-	margin-right: 30px;
+	height: 240px;
+	margin-right: 40px;
 
 }
 
 .szll .szll-xia ul li:last-child{
 	margin-right: 0;
 }
-.szll .szll-xia .zhaop {
-	position: relative;
-	margin-top: 16px;
-}
+
 .tuchu{
 	height: 180px;
 	width: 270px;
@@ -605,17 +581,25 @@ margin: 0;
 	top: 0px;
 	color: white;
 	text-align: center;
-	font-size: 12px;
-	padding: 40px 20px;
+	padding: 40px 10px;
 	box-sizing: border-box;
 	display: none;
 }
+
+.szll .szll-xia .zhaop {
+	position: relative;
+	margin-top: 16px;
+	
+}	
+
 .szll .zhaop:hover .tuchu{
 	display: block;
 }
 .szll .szll-xia .zhaop img{
 	width: 270px;
 	height: 180px;
+
+	
 }
 .szll .szll-xia .zhaop p{
 	font-size: 16px;
@@ -627,7 +611,10 @@ margin: 0;
 	color: #999999;
 }
 
-
+.szll .szll-xia .zhaop span.fa{
+	color: orangered;
+	font-size: 18px;
+}
 
 
 .xxzp{
@@ -706,12 +693,24 @@ margin: 0;
 	font-size: 12px;}
 	
 
-.xxzp .xxzp-info .class-4355 img{
+.xxzp .xxzp-info .tupian45{
 	height: 180px;
     width: 270px;
+    overflow: hidden;
 
 	
 }
+
+.xxzp .xxzp-info .tupian45 img{
+	height: inherit;
+	width: inherit;
+	position: relative;
+}
+
+
+
+
+
 .jymx{
 	margin-top: 28px;
 	/*background-color: red;*/
